@@ -65,3 +65,48 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 /* normalized css ends */
+
+
+*{
+
+}
+
+header {
+
+}
+
+
+
+.navBar{
+    display:flex;
+    font-family:Titillium+web;
+    margin-top:50px;
+    /* border:2px solid red; */
+    }
+
+    .navLinks{
+        /* margin-top:10px; */
+    display:flex;
+    width: 80%;
+    justify-content:space-evenly;
+    /* border:2px solid red; */
+    }
+
+    .navLinks a{
+        display:flex;
+        color:gray;
+        text-decoration:none;
+        /* border:2px solid red; */
+    }
+
+.navLogo{
+
+}
+
+    .heroImg{
+
+    }
+
+    .copy{
+
+    }
