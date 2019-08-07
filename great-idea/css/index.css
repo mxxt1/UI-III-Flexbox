@@ -78,11 +78,16 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+*{
+
+}
+
 body{
 	width:75%;
 	margin-left:10%;
 	margin-right:20%;
 	/* border: 2px solid red; */
+
 }
 
 
@@ -90,8 +95,8 @@ body{
 .navBar{
 display:flex;
 font-family:Titillium+web;
-width:100%;
 margin-top:50px;
+/* border:2px solid red; */
 }
 
 .navLinks{
@@ -99,58 +104,81 @@ margin-top:50px;
 display:flex;
 width: 100%;
 justify-content:space-evenly;
+/* border:2px solid red; */
 }
 
 .navLinks a{
 	color:gray;
 	text-decoration:none;
+	/* border:2px solid red; */
 }
 
-
-.heroBanner{
+.heroSection{
 display:flex;
-
+/* border:2px solid orange; */
+/* justify-content:space-between; */
+align-content:center;
+margin-top:50px;
+/* margin-bottom:200px; */
+border-bottom:2px solid gray;
+width:100%;
 }
+
 
 .heroCopy{
 display: flex;
-font-size:60px;
-justify-content:space-evenly;
+/* font-size:10px; */
+justify-content:space-around;
+/* border:2px solid blue; */
+flex-direction:column;
+text-align:center;
+margin-bottom:50px;
 
 }
+
+.heroCopy h1{
+font-size:60px;
+justify-content: center;
+}
+
+.heroCopy a{
+	background:white;
+	border: 1px solid black;
+	text-decoration: none;
+	color:gray;
+	/* text-align:center; */
+	justify-content: center;
+
+
+	}
 
 .heroImage{
+/* border:2px solid red; */
+/* justify-content: flex-end; */
 /* text-align:right;
 margin-top:0px;
-max-width:250px; */
+ */
+ /* max-width:75%; */
+ margin-bottom:50px;
+ margin-top: 20px;
+justify-content: space-around;
 
 }
 
-/* .heroLeft{
-	display:inline-block;
-	width:
-	margin:
-	padding-bottom:
-	border:
-} */
 
-/* .button{
-background:black;
-border:1px solid red;
-text-decoration: none;
-color:white;
-padding: 5px 20px;
-text-align:left;
 
-} */
 
 .copy{
-border-top:1.5px solid gray;
+/* border-top:1.5px solid gray;
 text-align:center;
 border-bottom: 1.5px solid gray;
 /* vertical-align:middle; */
-margin-top:10px;
-margin-bottom:10px;
+/*margin-top:10px;
+margin-bottom:10px; */
+display:flex;
+flex-direction:column;
+border-bottom: 2px solid gray;
+padding-bottom:30px;
 }
 
 .copy h2{
@@ -160,11 +188,14 @@ margin-top:20px;
 
 .copy p{
 font-family:Titillium+web;
+margin-top:20px;
 }
 
 
 .topRow{
-
+display:flex;
+margin-bottom: 20px;
+flex-direction:row;
 }
 .middle-img{
 display:inline-block;
@@ -172,26 +203,13 @@ display:inline-block;
 width:100%;
 }
 
-.bottomRowRight{
-	display:inline-block;
-	/* border: 2px solid red; */
-	width:33%;
-	margin-bottom:15px;
+.bottomRow{
+display:flex;
 }
 
-.bottomRowMiddle{
-	display:inline-block;
-	/* border: 2px solid red; */
-	width:33%;
-	margin-bottom:15px;
-}
 
-.bottomRowLeft{
-	display:inline-block;
-	/* border: 2px solid red; */
-	width:33%;
-	margin-bottom:15px;
-}
+
+
 .contact{
 	text-align:left;
 	/* border: 2px solid red; */
