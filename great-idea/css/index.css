@@ -65,63 +65,76 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 /* normalized css ends */
+
+
+
+
+
+
+
+
+
+
+
 /* Your code starts here! */
 
 body{
 	width:75%;
-	margin-left:200px;
+	margin-left:10%;
+	margin-right:20%;
 	/* border: 2px solid red; */
 }
 
 
 
 .navBar{
-	margin-top:20px;
-text-align:center;
+display:flex;
 font-family:Titillium+web;
 width:100%;
+margin-top:50px;
 }
 
-.navBar a{
-	margin-top:10px;
+.navLinks{
+	/* margin-top:10px; */
+display:flex;
+width: 100%;
+justify-content:space-evenly;
+}
+
+.navLinks a{
 	color:gray;
-text-align:right;
-text-decoration: none;
-padding:30px 50px;
+	text-decoration:none;
 }
 
-.navLogo{
-	display:inline-block;
-	vertical-align: top;
-
-}
 
 .heroBanner{
-text-align:center;
-}
-.heroCopy{
-display: inline-block;
-font-size:60px;
+display:flex;
 
+}
+
+.heroCopy{
+display: flex;
+font-size:60px;
+justify-content:space-evenly;
 
 }
 
 .heroImage{
-text-align:right;
+/* text-align:right;
 margin-top:0px;
-max-width:250px;
+max-width:250px; */
 
 }
 
-.heroLeft{
+/* .heroLeft{
 	display:inline-block;
 	width:
 	margin:
 	padding-bottom:
 	border:
-}
+} */
 
-.button{
+/* .button{
 background:black;
 border:1px solid red;
 text-decoration: none;
@@ -129,7 +142,7 @@ color:white;
 padding: 5px 20px;
 text-align:left;
 
-}
+} */
 
 .copy{
 border-top:1.5px solid gray;
@@ -150,25 +163,8 @@ font-family:Titillium+web;
 }
 
 
-/* .topRowLeft p{
-	/* display:inline-block; */
-   /* margin-top:20px; */
-/* border: 2px solid red; */
-/* width:49%%; */
-/* margin-bottom:15px;
-} */ */
-
-/* .topRow {
-display:inline-block;
-   /* margin-top:20px; */
-/* border: 2px solid red; */
-/* width:49%; */
-/* margin-bottom:15px;
-} */
-
 .topRow{
-display:inline-block;
-width:40%;
+
 }
 .middle-img{
 display:inline-block;
