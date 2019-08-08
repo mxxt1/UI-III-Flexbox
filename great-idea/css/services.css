@@ -140,6 +140,8 @@ background-color: white;
 width:100%;
 flex-wrap:wrap;
 justify-content: space-evenly;
+border-bottom: 2px solid gray;
+margin-bottom:5%;
 }
 
 .services-container a{
@@ -148,26 +150,30 @@ justify-content: space-evenly;
 	text-decoration: none;
 	color:gray;
 	/* text-align:center; */
-	justify-content: center;
+    justify-content: center;
+/* height:25px;
+width:80px; */
+
 }
 
 
 .services-container div{
 /* background-color:lightgray; */
-display-flex;
-justify-content:space-around;
-border:1px solid gray;
+display:flex;
+flex-direction:column;
+justify-content:space-evenly;
+border:2px solid gray;
 width:42%;
-margin-left:3%;
+/* margin-left:1%; */
 margin-bottom:3%;
-margin-right: 3%;
-margin-top: 2%;
-background-color:lightgray;
-
+margin-right: 1%;
+/* margin-top: 2%; */
+background-color:rgb(223, 223, 223);
+padding:2% 2% 2% 2%;
 }
 
 .serviceCategory p{
-	width:40%;
+    width:40%;
 
 }
 
@@ -175,11 +181,38 @@ background-color:lightgray;
 	background:white;
 	border: 1px solid black;
 	text-decoration: none;
-	color:gray;
+	color:black;
 	/* text-align:center; */
 	justify-content: center;
 }
 
 #design{
 background-color:lightgray;
+}
+
+.facts{
+display:flex;
+justify-content:space-evenly
+}
+
+.facts p{
+line-height:1.25;
+}
+
+.facts ul{
+line-height:2;
+margin-top:2%;
+}
+
+.factCopy{
+width:45%;
+}
+
+.factImg{
+    width:45%;
+}
+
+footer{
+text-align:center;
+margin-top:8%;
 }
