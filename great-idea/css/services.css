@@ -83,6 +83,7 @@ body{
     margin-top:3%;
     justify-content:space-evenly;
     margin-bottom:3%;
+    font-weight: bold;
     }
 
 .navLinks{
@@ -127,6 +128,7 @@ body{
     margin-right:2%;
     border-bottom:2px solid gray;
     justify-content: space-between;
+    font-weight: bold;
 }
 
 .aboutServices p{
@@ -145,6 +147,7 @@ body{
     margin-bottom:5%;
     /* justify-content:center; */
     line-height: 1.25;
+    font-weight: bold;
 }
 
 
@@ -197,13 +200,14 @@ body{
 	/* text-align:center; */
     justify-content: center;
     align-items:flex-end;
-    width: 25%;
+    width: 30%;
     align-items: center;
     border-radius: 5px;
     margin-top: 5%;
     margin-bottom:5%;
     padding-top: 2%;
     padding-bottom: 2%;
+    font-size:13px;
 
 }
 
@@ -232,13 +236,14 @@ body{
 	/* text-align:center; */
     justify-content: center;
     align-items:flex-end;
-    width: 25%;
+    width: 30%;
     align-items: center;
     border-radius: 5px;
     margin-top: 5%;
     margin-bottom:5%;
     padding-top: 2%;
     padding-bottom: 2%;
+    font-size:13px;
 }
 
 #marketing{
@@ -266,13 +271,14 @@ body{
 	/* text-align:center; */
     justify-content: center;
     align-items:flex-end;
-    width: 25%;
+    width: 30%;
     align-items: center;
     border-radius: 5px;
     margin-top: 5%;
     margin-bottom:5%;
     padding-top: 2%;
     padding-bottom: 2%;
+    font-size:13px;
 }
 
 #webDev{
@@ -300,13 +306,14 @@ body{
 	/* text-align:center; */
     justify-content: center;
     align-items:flex-end;
-    width: 25%;
+    width: 30%;
     align-items: center;
     border-radius: 5px;
     margin-top: 5%;
     margin-bottom:5%;
     padding-top: 2%;
     padding-bottom: 2%;
+    font-size:13px;
 }
 
 #iosDev{
@@ -333,13 +340,14 @@ body{
 	/* text-align:center; */
     justify-content: center;
     align-items:flex-end;
-    width: 25%;
+    width: 30%;
     align-items: center;
     border-radius: 5px;
     margin-top: 5%;
     margin-bottom:5%;
     padding-top: 2%;
     padding-bottom: 2%;
+    font-size:13px;
 }
 
 
@@ -368,13 +376,14 @@ body{
 	/* text-align:center; */
     justify-content: center;
     align-items:flex-end;
-    width: 25%;
+    width: 30%;
     align-items: center;
     border-radius: 5px;
     margin-top: 5%;
     margin-bottom:5%;
     padding-top: 2%;
     padding-bottom: 2%;
+    font-size:13px;
 }
 
 
