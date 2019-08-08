@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -54,7 +54,9 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	width:100%;
+
 }
 
 h1, h2, h3, h4, h5 {
@@ -62,5 +64,266 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+/* normalized css ends */
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+
+
+
+
+
+
+
+
+/* Your code starts here! */
+
+
+body{
+	box-sizing:border-box;
+	width:75%;
+	margin-left:12%;
+	margin-right:8%;
+
+}
+
+
+
+.navBar{
+display:flex;
+font-family:Titillium+web;
+margin-top:3%;
+/* border:2px solid red; */
+justify-content:space-evenly;
+}
+
+.navLinks{
+	/* margin-top:10px; */
+display:flex;
+width: 85%;
+justify-content:space-around;
+/* border:2px solid red; */
+}
+
+.navLinks a{
+	color:gray;
+	text-decoration:none;
+	/* border:2px solid red; */
+}
+
+.navLogo{
+margin-top:-1%;
+margin-left:3%;
+justify-content: space-around;
+}
+
+.heroSection{
+display:flex;
+/* border:2px solid orange; */
+/* justify-content:space-between; */
+/* align-content:center; */
+margin-top:50px;
+/* margin-bottom:200px; */
+border-bottom:2px solid gray;
+width:100%;
+}
+
+
+.heroCopy{
+display: flex;
+/* font-size:10px; */
+justify-content:space-evenly;
+/* border:2px solid blue; */
+flex-direction:column;
+text-align:center;
+margin-bottom:50px;
+width:50%
+
+
+}
+
+.heroCopy h1{
+font-size:60px;
+justify-content: center;
+justify-content: space-around;
+}
+
+.heroCopy a{
+	background:white;
+	border: 1px solid black;
+	text-decoration: none;
+	color:gray;
+	/* text-align:center; */
+	justify-content: center;
+
+
+	}
+
+.heroImage{
+/* border:2px solid red; */
+/* justify-content: flex-end; */
+/* text-align:right;
+margin-top:0px;
+ */
+ /* max-width:75%; */
+ margin-bottom:50px;
+ margin-top: 20px;
+justify-content: space-around;
+/* width:50%; */
+/* max-width: 100%; */
+
+}
+
+
+
+
+.copy{
+/* border-top:1.5px solid gray;
+text-align:center;
+border-bottom: 1.5px solid gray;
+/* vertical-align:middle; */
+/*margin-top:10px;
+margin-bottom:10px; */
+display:flex;
+flex-direction:column;
+border-bottom: 2px solid gray;
+padding-bottom:30px;
+}
+
+.copy h2{
+font-family: Bangers;
+margin-top:20px;
+}
+
+.copy p{
+font-family:Titillium+web;
+margin-top:20px;
+}
+
+
+.topRow{
+display:flex;
+margin-bottom: 20px;
+flex-direction:row;
+justify-content: space-around;
+}
+
+.features{
+	width: 45%;
+}
+
+.about{
+	width:45%;
+}
+.middle-img{
+	display:flex;
+display:inline-block;
+/* margin-left:10%; */
+width:100%;
+/* justify-content:space-around; */
+}
+
+.middle-img img{
+	width: 100%%;
+justify-content:center;
+}
+
+.bottomRow{
+display:flex;
+justify-content: space-evenly;
+}
+
+#services{
+width:30%;
+}
+
+#products{
+	width:30%;
+}
+
+#vision{
+	width:30%;
+}
+
+
+.contact{
+	text-align:left;
+	/* border: 2px solid red; */
+}
+
+.contact h2{
+margin-top:20px;
+/* border: 2px solid red; */
+}
+
+footer{
+	text-align:center;
+	/* border: 2px solid red; */
+margin-bottom:50px;
+margin-top:50px;
+}
+
+
+/* Beginning of services.html css */
+
+.aboutServices{
+	display:flex;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.services-container{
+display:flex;
+border: 1px solid red;
+background-color: white;
+width:100%;
+flex-wrap:wrap;
+justify-content: space-between;
+}
+
+.services-container a{
+	background:white;
+	border: 1px solid black;
+	text-decoration: none;
+	color:gray;
+	/* text-align:center; */
+	justify-content: center;
+}
+
+
+.services-container div{
+/* background-color:lightgray; */
+justify-content:space-evenly;
+border:1px solid red;
+width:30%;
+
+}
+
+.serviceCategory p{
+	width:40%;
+
+}
+
+.serviceCategory a{
+	background:white;
+	border: 1px solid black;
+	text-decoration: none;
+	color:gray;
+	/* text-align:center; */
+	justify-content: center;
+}
+
+#design{
+background-color:lightgray;
+
+}
