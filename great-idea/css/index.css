@@ -80,6 +80,7 @@ h1, h2, h3, h4, h5 {
 
 
 body{
+	box-sizing:border-box;
 	width:75%;
 	margin-left:12%;
 	margin-right:8%;
@@ -262,27 +263,50 @@ margin-bottom:50px;
 margin-top:50px;
 }
 
-.copyServices{
+
+/* Beginning of services.html css */
+
+.aboutServices{
+	display:flex;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.services-container{
 display:flex;
-/* flex-direction:column; */
 border: 1px solid red;
 background-color: white;
+width:100%;
 flex-wrap:wrap;
+justify-content: space-between;
 }
 
-.serviceCategory{
-display:flex;
-/* flex-direction: row; */
-/* justify-content:space-around; */
-/* width:50%; */
-
+.services-container a{
+	background:white;
+	border: 1px solid black;
+	text-decoration: none;
+	color:gray;
+	/* text-align:center; */
+	justify-content: center;
 }
 
-.serviceCategory div{
-	background-color:lightgray;
-justify-content:space-around;
-height:30%;
+
+.services-container div{
+/* background-color:lightgray; */
+justify-content:space-evenly;
 border:1px solid red;
+width:30%;
+
 }
 
 .serviceCategory p{
@@ -299,6 +323,7 @@ border:1px solid red;
 	justify-content: center;
 }
 
-/* #design{
+#design{
 background-color:lightgray;
-} */
+
+}
