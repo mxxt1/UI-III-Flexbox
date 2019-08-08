@@ -98,7 +98,7 @@ justify-content:space-evenly;
 }
 
 .navLinks{
-	/* margin-top:10px; */
+	margin-top:1%;
 display:flex;
 width: 85%;
 justify-content:space-around;
@@ -112,7 +112,7 @@ justify-content:space-around;
 }
 
 .navLogo{
-margin-top:-1%;
+/* margin-top:-1%; */
 margin-left:3%;
 justify-content: space-around;
 }
@@ -203,9 +203,10 @@ margin-top:20px;
 
 .topRow{
 display:flex;
-margin-bottom: 20px;
+/* margin-bottom: 20px; */
 flex-direction:row;
 justify-content: space-around;
+margin-bottom: 5%;
 }
 
 .features{
@@ -221,12 +222,15 @@ display:inline-block;
 /* margin-left:10%; */
 width:100%;
 /* justify-content:space-around; */
+margin-left:2%;
+margin-right:10%;
 }
 
-.middle-img img{
-	width: 100%%;
+/* .middle-img img{
+	width%;
 justify-content:center;
-}
+	
+} */
 
 .bottomRow{
 display:flex;
@@ -247,8 +251,9 @@ width:30%;
 
 
 .contact{
-	text-align:left;
+	/* text-align:left; */
 	/* border: 2px solid red; */
+	margin-left: 2%;
 }
 
 .contact h2{
