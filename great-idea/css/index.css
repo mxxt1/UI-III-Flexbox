@@ -93,6 +93,7 @@ display:flex;
 font-family:Titillium+web;
 margin-top:3%;
 /* border:2px solid red; */
+justify-content:space-evenly;
 }
 
 .navLinks{
@@ -110,7 +111,9 @@ justify-content:space-around;
 }
 
 .navLogo{
-margin:-1%;
+margin-top:-1%;
+margin-left:3%;
+justify-content: space-around;
 }
 
 .heroSection{
@@ -128,7 +131,7 @@ width:100%;
 .heroCopy{
 display: flex;
 /* font-size:10px; */
-justify-content:space-around;
+justify-content:space-evenly;
 /* border:2px solid blue; */
 flex-direction:column;
 text-align:center;
@@ -141,6 +144,7 @@ width:50%
 .heroCopy h1{
 font-size:60px;
 justify-content: center;
+justify-content: space-around;
 }
 
 .heroCopy a{
@@ -164,7 +168,8 @@ margin-top:0px;
  margin-bottom:50px;
  margin-top: 20px;
 justify-content: space-around;
-width:50%;
+/* width:50%; */
+/* max-width: 100%; */
 
 }
 
@@ -199,11 +204,14 @@ margin-top:20px;
 display:flex;
 margin-bottom: 20px;
 flex-direction:row;
+justify-content: space-evenly
 }
 .middle-img{
+	display:flex;
 display:inline-block;
 /* margin-left:10%; */
 width:100%;
+justify-content:space-around;
 }
 
 .bottomRow{
@@ -226,4 +234,6 @@ margin-top:20px;
 footer{
 	text-align:center;
 	/* border: 2px solid red; */
+margin-bottom:50px;
+margin-top:50px;
 }
