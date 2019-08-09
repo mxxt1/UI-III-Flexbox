@@ -53,9 +53,12 @@ table {
 }
 
 html, body {
+    display:flex;
+    flex-direction:column;
     height: 100%;
 	font-family: 'Titillium Web', sans-serif;
-	width:100%;
+  
+    
 
 }
 
@@ -68,11 +71,10 @@ h1, h2, h3, h4, h5 {
 
 
 body{
-	box-sizing:border-box;
-	width:75%;
-	margin-left:12%;
-    margin-right:8%;
-    font: weight 3;
+    
+    width:80%;
+    margin-right:10%;
+    margin-left:10%;
 
 }
 
@@ -82,15 +84,15 @@ body{
     font-family:Titillium+web;
     margin-top:3%;
     justify-content:space-evenly;
-    margin-bottom:3%;
+    margin-bottom:1%;
     font-weight: bold;
     }
 
 .navLinks{
     margin-top:1%;
     display:flex;
-    width: 85%;
-    justify-content:space-around;
+    width: 100%;
+    justify-content:space-between;
     
 }
 
@@ -102,8 +104,8 @@ body{
 
 .navLogo{
     /* margin-top:-1%; */
-    margin-left:3%;
-    justify-content: space-around;
+    margin-left:5%;
+    /* justify-content: space-between; */
 }
 
 .heroImg{
@@ -114,26 +116,45 @@ body{
 
 .heroImg img{
     min-width: 100%;
-    margin-left:4%;
 }
 
 
 .aboutServices{
 	display:flex;
-    width: 100%;
+    /* width: 100%; */
     margin-top:50px;
     margin-bottom:50px;
     justify-content:center;
     margin-left:2%;
     margin-right:2%;
-    border-bottom:2px solid gray;
     justify-content: space-between;
     font-weight: bold;
 }
-
+/* .aboutServices{
+    width:100%;
+}
 .aboutServices p{
     width:100%;
     margin-bottom:20px;
+} */
+#services{
+    width: 100%;
+    /* margin-bottom: 5%; */
+    margin-top:1%;
+}
+
+#services h1{
+    margin-top:3%;
+}
+
+#services p{
+    /* margin-bottom:5%; */
+    width:100%;
+    margin-top:2%
+}
+
+.heroImg{
+    margin-bottom:2%;
 }
 
 .services-container{
@@ -143,11 +164,13 @@ body{
     width:100%;
     flex-wrap:wrap;
     justify-content: space-between;
-    border-bottom: 2px solid gray;
+    
     margin-bottom:5%;
     /* justify-content:center; */
     line-height: 1.25;
     font-weight: bold;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
 }
 
 
@@ -390,6 +413,10 @@ body{
 .facts{
     display:flex;
     justify-content:space-evenly
+}
+
+.factCopy{
+    
 }
 
 .facts p{
