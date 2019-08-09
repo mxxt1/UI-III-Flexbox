@@ -1,0 +1,453 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    display:flex;
+    flex-direction:column;
+    height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+  
+    
+
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+/* normalized css ends */
+
+
+body{
+    
+    width:80%;
+    margin-right:10%;
+    margin-left:10%;
+
+}
+
+
+.navBar{
+    display:flex;
+    font-family:Titillium+web;
+    margin-top:3%;
+    justify-content:space-evenly;
+    margin-bottom:1%;
+    font-weight: bold;
+    }
+
+.navLinks{
+    margin-top:1%;
+    display:flex;
+    width: 100%;
+    justify-content:space-between;
+    
+}
+
+.navLinks a{
+    color:gray;
+    text-decoration:none;
+    
+}
+
+.navLogo{
+    /* margin-top:-1%; */
+    margin-left:5%;
+    /* justify-content: space-between; */
+}
+
+.heroImg{
+    display:flex;
+    width:100%;
+    justify-content:center;
+}
+
+.heroImg img{
+    min-width: 100%;
+}
+
+
+.aboutServices{
+	display:flex;
+    /* width: 100%; */
+    margin-top:50px;
+    margin-bottom:50px;
+    justify-content:center;
+    margin-left:2%;
+    margin-right:2%;
+    justify-content: space-between;
+    font-weight: bold;
+}
+/* .aboutServices{
+    width:100%;
+}
+.aboutServices p{
+    width:100%;
+    margin-bottom:20px;
+} */
+#services{
+    width: 100%;
+    /* margin-bottom: 5%; */
+    margin-top:1%;
+}
+
+#services h1{
+    margin-top:3%;
+}
+
+#services p{
+    /* margin-bottom:5%; */
+    width:100%;
+    margin-top:2%
+}
+
+.heroImg{
+    margin-bottom:2%;
+}
+
+.services-container{
+    display:flex;
+    /* border: 1px solid red; */
+    background-color: white;
+    width:100%;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    
+    margin-bottom:5%;
+    /* justify-content:center; */
+    line-height: 1.25;
+    font-weight: bold;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+
+.services-container div{
+    display:flex;
+    flex-direction:column;
+    /* justify-content:space-between; */
+
+}
+
+.serviceCategory p{
+    width:49%;
+
+}
+
+.serviceCategory a{
+	background:white;
+	border: 1px solid black;
+	text-decoration: none;
+	color:black;
+	/* text-align:center; */
+	justify-content: center;
+}
+
+#design{
+    display:flex;
+    border:2px solid gray;
+    width:46%;
+    margin-left:1%;
+    margin-bottom:3%;
+    margin-right: 1%;
+    margin-top: 2%;
+    background-color:rgb(223, 223, 223);
+    padding:2% 2% 2% 2%;
+    /* justify-content:space-between; */
+}
+
+#design p{
+    display:flex;
+    margin-bottom: 3%;
+}
+
+
+#design a{
+    display:flex;
+    background:white;
+	border: 1px solid black;
+	text-decoration: none;
+	color:gray;
+	/* text-align:center; */
+    justify-content: center;
+    align-items:flex-end;
+    width: 30%;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-bottom:5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size:13px;
+
+}
+
+#ux{
+    border:2px solid gray;
+    width:46%;
+    margin-left:1%;
+    margin-bottom:3%;
+    margin-right: 1%;
+    margin-top: 2%;
+    background-color:rgb(223, 223, 223);
+    padding:2% 2% 2% 2%;
+
+}
+
+#ux p{
+    margin-bottom: 3%;
+}
+
+#ux a{
+    display:flex;
+    background:white;
+	border: 1px solid black;
+	text-decoration: none;
+	color:gray;
+	/* text-align:center; */
+    justify-content: center;
+    align-items:flex-end;
+    width: 30%;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-bottom:5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size:13px;
+}
+
+#marketing{
+    border:2px solid gray;
+    width:46%;
+    margin-left:1%;
+    margin-bottom:3%;
+    margin-right: 1%;
+    margin-top: 2%;
+    background-color:rgb(223, 223, 223);
+    padding:2% 2% 2% 2%;
+
+}
+
+#marketing p{
+    margin-bottom: 3%;
+}
+
+#marketing a{
+    display:flex;
+    background:white;
+	border: 1px solid black;
+	text-decoration: none;
+	color:gray;
+	/* text-align:center; */
+    justify-content: center;
+    align-items:flex-end;
+    width: 30%;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-bottom:5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size:13px;
+}
+
+#webDev{
+    border:2px solid gray;
+    width:46%;
+    margin-left:1%;
+    margin-bottom:3%;
+    margin-right: 1%;
+    margin-top: 2%;
+    background-color:rgb(223, 223, 223);
+    padding:2% 2% 2% 2%;
+
+}
+
+#webDev p{
+    margin-bottom: 3%;
+}
+
+#webDev a{
+    display:flex;
+    background:white;
+	border: 1px solid black;
+	text-decoration: none;
+	color:gray;
+	/* text-align:center; */
+    justify-content: center;
+    align-items:flex-end;
+    width: 30%;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-bottom:5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size:13px;
+}
+
+#iosDev{
+    border:2px solid gray;
+    width:46%;
+    margin-left:1%;
+    margin-bottom:3%;
+    margin-right: 1%;
+    margin-top: 2%;
+    background-color:rgb(223, 223, 223);
+    padding:2% 2% 2% 2%;
+}
+
+#iosDev p{
+    margin-bottom: 3%;
+}
+
+#iosDev a{
+    display:flex;
+    background:white;
+	border: 1px solid black;
+	text-decoration: none;
+	color:gray;
+	/* text-align:center; */
+    justify-content: center;
+    align-items:flex-end;
+    width: 30%;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-bottom:5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size:13px;
+}
+
+
+#android{
+    border:2px solid gray;
+    width:46%;
+    margin-left:1%;
+    margin-bottom:3%;
+    margin-right: 1%;
+    margin-top: 2%;
+    background-color:rgb(223, 223, 223);
+    padding:2% 2% 2% 2%;
+
+}
+
+#android p{
+    margin-bottom: 3%;
+}
+
+#android a{
+    display:flex;
+    background:white;
+	border: 1px solid black;
+	text-decoration: none;
+	color:gray;
+	/* text-align:center; */
+    justify-content: center;
+    align-items:flex-end;
+    width: 30%;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-bottom:5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size:13px;
+}
+
+
+.facts{
+    display:flex;
+    justify-content:space-evenly
+}
+
+.factCopy{
+    
+}
+
+.facts p{
+    line-height:1.25;
+}
+
+.facts ul{
+    line-height:2;
+    margin-top:2%;
+}
+
+.facts li{
+    display:list-item;
+    list-style-type: square;
+    margin-left: 5%;
+}
+
+.factCopy{
+    width:45%;
+}
+
+.factImg{
+    max-width:50%;
+}
+
+footer{
+    text-align:center;
+    margin-top:10%;
+    margin-bottom: 5%;
+}
+
+
+
+/* testing commit/push from wsl --> vscode remote */
